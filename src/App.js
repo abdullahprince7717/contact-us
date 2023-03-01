@@ -43,10 +43,10 @@ const App = () => {
           <p class = 'bold'>Message</p>
           <TextArea class='text-area' type="text" name="name" rows={4} />
 
-          <button class='send-btn' type="submit" >
+        </form>
+        <button class='send-btn' type="submit" >
             Send Message
           </button>
-        </form>
 
         <div class = 'end-text'>
           <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply</p>

@@ -48,6 +48,7 @@
 
 Input {
   width: 90% !important;
+  max-width: 650px;
   height: 60px !important; 
   margin-bottom: 20px;
   margin-top: 5px;
@@ -62,7 +63,8 @@ Input:focus {
 
 
 TextArea {
-  width: 90%;
+  width: 90% !important; 
+  max-width: 650px !important;
   min-height: 80px;
   margin-bottom: 10px;
   margin-top: 5px;
