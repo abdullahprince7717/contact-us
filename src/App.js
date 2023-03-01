@@ -43,7 +43,9 @@ const App = () => {
           <p class = 'bold'>Message</p>
           <TextArea class='text-area' type="text" name="name" rows={4} />
 
-          <input class='send-btn' type="submit" value="Send Message" />
+          <button class='send-btn' type="submit" >
+            Send Message
+          </button>
         </form>
 
         <div class = 'end-text'>
