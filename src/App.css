@@ -127,10 +127,8 @@ TextArea:focus {
     padding: 15px;
   }
   .end-text {
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    width:280px;
+    margin: 20px;
   }
 
   Input {
@@ -139,12 +137,13 @@ TextArea:focus {
   }
 
   TextArea {
-    min-width: 320px !important;
-    margin-bottom: 10px;
+    min-width: 265px !important;
+    margin-bottom: 10px !important; 
+    border-radius: 0px !important;
   }
 
   .send-btn {
-    margin-left: 83px;
+    margin-left: 65px;
   }
 
   
